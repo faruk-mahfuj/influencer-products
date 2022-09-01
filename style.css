@@ -3,18 +3,19 @@
 
 /* Common Styles */
 body {
-    margin: 0% 120px;
+    margin: 0%;
     padding: 0%;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
 
 
+
 /* Navbar Styles */
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 30px 0px 0px;
+    margin: 50px 120px 0px;
     align-items: center;
 }
 
@@ -42,7 +43,7 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     column-gap: 110px;
-    margin: 50px 0px 70px;
+    margin: 50px 120px 100px;
 }
 
 
@@ -102,11 +103,15 @@ nav {
     grid-template-columns: repeat(7, 1fr);
     align-items: center;
     justify-items: center;
-    margin-bottom: 100px;
+    margin: auto 120px 100px;
 
 }
 
 /* Popular Collection Section Styles */
+.popular-collection {
+    margin: 0% 120px 100px;
+}
+
 .popular-collection h2 {
     display: flex;
     justify-content: center;
@@ -184,7 +189,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 96px;
-    margin-bottom: 100px;
+    margin: auto 120px 100px;
     align-items: center;
 }
 
@@ -219,4 +224,39 @@ nav {
     color: white;
     font-weight: 700;
     font-size: 16px;
+}
+
+/* Footer Styles  */
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #0A0826;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+footer h1 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+footer p {
+    color: #D9DBE1;
+    font-size: 14px;
+    text-align: center;
+    margin: 0% 0% 15px;
+}
+
+footer div {
+    display: flex;
+}
+
+footer div a {
+    margin: 0px 8px 0px;
+    display: flex;
+
 }
